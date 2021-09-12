@@ -22,6 +22,7 @@ const routes = [
     path: "/coaches/:id",
     name: "Coach Info",
     component: CoachDetails,
+    props: true,
     children: [
       {
         path: "contact",
