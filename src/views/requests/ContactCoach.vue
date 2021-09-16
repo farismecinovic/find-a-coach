@@ -56,7 +56,7 @@ form {
 
 label {
   font-weight: bold;
-  margin-block: 0.5rem;
+  margin-bottom: 0.5rem;
   display: block;
 }
 
