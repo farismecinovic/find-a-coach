@@ -46,7 +46,7 @@ export default {
 form {
   margin: 1rem;
   border: 1px solid #ccc;
-  border-radius: 12px;
+  border-radius: 12.5px;
   padding: 1rem;
 }
 
