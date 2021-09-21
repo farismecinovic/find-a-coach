@@ -17,7 +17,7 @@ export default {
       }
     );
     if (!response.ok) {
-      //error...
+      //error handler
     }
 
     context.commit("registerCoach", { ...coachData, id: userId });
@@ -29,7 +29,7 @@ export default {
     const responseData = response.json();
     console.log(responseData);
     if (!response.ok) {
-      // error ...
+      // error handler
     }
 
     const coaches = [];
